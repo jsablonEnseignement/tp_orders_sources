@@ -1,37 +1,17 @@
 {
   "compilerOptions": {
-    "allowJs": true,
-    "esModuleInterop": true,
-    "jsx": "react-jsx",
-    "incremental": false,
-    "inlineSourceMap": true,
-    "lib": [
-      "ES2019.Array",
-      "ES2019.Object",
-      "DOM"
-    ],
+    "target": "es5",
     "module": "CommonJS",
-    "noUncheckedIndexedAccess": true,
-    "noUnusedLocals": false,
-    "outDir": "./dist",
-    "resolveJsonModule": true,
-    "rootDir": "./src",
-    "skipLibCheck": true,
+    "moduleResolution": "Node",
+    "lib": [
+      "es6"
+    ],
+    "allowJs": true,
+    "outDir": "build",
+    "rootDir": "src",
     "strict": true,
-    "strictPropertyInitialization": false,
-    "target": "ES2017",
-    "useUnknownInCatchVariables": false
-  },
-  "include": [
-    "./src",
-    "./node_modules/@machinomy/types-node-db-migrate/index.d.ts"
-  ],
-  "ts-node": {
-    "compilerOptions": {
-      "rootDir": "."
-    },
-    "files": true,
-    "scope": true,
-    "scopeDir": "./src"
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true
   }
 }

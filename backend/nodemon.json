@@ -1,12 +1,8 @@
 {
-    "ignore": [
-        "**/*.test.ts",
-        "**/*.spec.ts",
-        "node_modules"
-    ],
     "watch": [
         "src"
     ],
-    "exec": "ts-node-esm src/index.ts",
-    "ext": "ts"
+    "ext": ".ts,.js",
+    "ignore": [],
+    "exec": "ts-node ./src/index.ts"
 }
