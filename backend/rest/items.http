@@ -1,0 +1,38 @@
+### Récupération de toutes les pizzas que propose la pizerria
+GET http://{{host}}:{{port}}/items/
+
+
+### Récupération d'une pizza
+
+GET http://{{host}}:{{port}}/items/1
+
+
+### Création d'une pizza
+
+POST http://{{host}}:{{port}}/items/
+content-type: application/json
+
+{
+  "name": "Cannibale",
+  "description": "Sauce barbecue, mozzarella, poulet rôti*, merguez*, haché au bœuf assaisonné*.",
+  "price": 12.9,
+  "quantity": 1
+}
+
+
+### Mise à jour d'une pizza
+
+PUT http://{{host}}:{{port}}/items/1
+content-type: application/json
+
+{
+  "name": "Cannibale",
+  "description": "Sauce barbecue, mozzarella, poulet rôti*, merguez*, haché au bœuf assaisonné*.",
+  "price": 12.9,
+  "quantity": 1
+}
+
+
+### Suppression d'une pizza
+
+DELETE http://{{host}}:{{port}}/items/1
