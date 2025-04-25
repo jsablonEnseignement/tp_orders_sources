@@ -15,8 +15,7 @@ content-type: application/json
 {
   "name": "Cannibale",
   "description": "Sauce barbecue, mozzarella, poulet rôti*, merguez*, haché au bœuf assaisonné*.",
-  "price": 12.9,
-  "quantity": 1
+  "price": 12.9
 }
 
 
@@ -28,8 +27,7 @@ content-type: application/json
 {
   "name": "Cannibale",
   "description": "Sauce barbecue, mozzarella, poulet rôti*, merguez*, haché au bœuf assaisonné*.",
-  "price": 12.9,
-  "quantity": 1
+  "price": 12.9
 }
 
 
